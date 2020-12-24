@@ -19,3 +19,7 @@ import yfinance as yf
 data = yf.download("AAPL", start="2018-01-01", end="2019-12-31")
 #This is for downloading apple (stock symbol : AAPL) data from 1st jan 2018 to 31st December 2019
 ```
+
+PS: This way, you can get an idea of the effectiveness of your strategy, and you can use it as a starting point to optimize and improve your strategy before applying it to real markets.
+
+This relies heavily on the underlying theory or belief that any strategy that has worked out well in the past will likely also work out well in the future, real stock market is quite volatile .
